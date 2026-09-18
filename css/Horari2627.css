@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+table,td,th{
+    border: solid 0.5px black;
+    border-collapse: collapse;
+    padding: 4px;
+    font-size: 9px;
+}
+
+.dia{
+    padding: 0,5em 1em ;
+    font-weight: normal;
+}
+
+.horas{
+    font-weight: normal;
+    padding: 1px 4px 1px 4px;
+    font-size: 15px;
+}
+
+#gris{
+    background-color: #B7B7B7;
+}
+
+.taronja {
+    background-color: #FFCC99;
+    text-align: center;
+}
+
+.verd{
+    background-color: #9bffc1;
+    text-align: center;
+    padding: 1px 4px 1px 4px;
+}
+
+.verdfluix{
+    background-color: #99f57de2;
+    text-align: center;
+    padding: 1px 4px 1px 4px;
+}
+
+.blauCel{
+    background-color: aqua;
+    text-align: center;
+    padding: 1px 4px 1px 4px;
+}
+
+.groc{
+    background-color: #FFFF99;
+    text-align: center;
+}
+
+.rosa{
+    background-color: #F2DCDB;
+    text-align: center;
+    padding: 1px 4px 1px 4px;
+}
+
+.blau{
+    background-color: #82b8faf4;
+    text-align: center;
+}
+
+.blaufluix{
+    background-color: #DBE5F1;
+    text-align: center;
+}
+
+.violeta{
+    background-color: #f9a0f4d6;
+    text-align: center;
+}
