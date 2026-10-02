@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulari de registre</title>
+</head>
+<body>
+  <h1>Formulari</h1>
+
+  <form action="#" method="post">
+
+    <label for="nom">Nom complet</label><br>
+    <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required><br><br>
+
+    <label for="email">Correu electrònic</label><br>
+    <input type="email" id="email" name="email" placeholder="exemple@correu.com" required><br><br>
+
+    <label for="contrasenya">Contrasenya</label><br>
+    <input type="password" id="contrasenya" name="contrasenya" placeholder="Mínim 8 caràcters" minlength="8" required><br><br>
+
+    <label for="telefon">Telèfon</label><br>
+    <input type="tel" id="telefon" name="telefon" pattern="[0-9]{9}" maxlength="9" placeholder="123456789" required><br><br>
+
+    <label for="edat">Edat</label><br>
+    <input type="number" id="edat" name="edat" min="18" max="99" step="1" placeholder="Entre 18 i 99"><br><br>
+
+    <label for="data">Data de naixement</label><br>
+    <input type="date" id="data" name="data" min="1900-01-01" max="2025-12-31"><br><br>
+
+    <input type="submit" value="Registrar-se">
+  </form>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+  <meta charset="UTF-8">
+  <title>Lloc Web Exemple</title>
+</head>
+<body>
+  <header>
+    <h1>El meu lloc web</h1>
+    <p>En aquest exersisi farem un resum d'alguns exersisis fets anterorment, com taules, multimedia,
+       formularis i llistes. 
+    </p>
+  </header>
+  <hr>
+  <section>
+    <h2>Formulari de contacte</h2>
+    <form action="#" method="post">
+      <label for="nom">Nom:</label><br>
+      <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required><br><br>
+
+      <label for="email">Correu electrònic:</label><br>
+      <input type="email" id="email" name="email" placeholder="exemple@correu.com" required><br><br>
+
+      <label for="missatge">Missatge:</label><br>
+      <textarea id="missatge" name="missatge" rows="4" cols="30" placeholder="Escriu el teu missatge..."></textarea><br><br>
+
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <hr>
+  <section>
+    <h2>Horari Setmanal</h2>
+    <table border="1">
+                <tr>
+                    <th></th>
+                    <th>Dilluns</th>
+                    <th>Dimarts</th>
+                    <th>Dimecres</th>
+                    <th>Dijous</th>
+                    <th>Divendres</th>
+                    
+
+                </tr>
+                <tr>
+                    <th>8:00-9:00</th>
+                    <td rowspan="3">Programacio</td>
+                    <td rowspan="3">Programacio</td>
+                    <td rowspan="2">0483 Sistemes Jaume (Aula 9)</td>
+                    <td rowspan="2">1709 Robert (Aula 9)</td>
+                    <td>ERP Josep (Aula 9)</td>
+                </tr>
+                <tr>
+                    <th>9:00-10:00</th>
+                    <td rowspan="2">0373 / 0179 Web / Anglès Gon-Josep (Aula 9)</td>
+                </tr>
+                <tr>
+                    <th>10:00-11:00</th>
+                    <td>Programacio</td>
+                    <td>0484-Mod Opt BBDD Porti (Aula 9)</td>
+                </tr>
+                
+                <tr>
+                    <td colspan="6"><br></td>
+                </tr>
+                <tr>
+                    <th>11:30-12:30</th>
+                    <td>Tutoria</td>
+                    <td>0373 / 0179 Web / Anglès Gon-Josep (Aula 9)</td>
+                    <td>Programacio</td>
+                    <td rowspan="2">0484-Mod Opt BBDD Porti (Aula 9)</td>
+                    <td>0373 / 0179 Web / Anglès Gon-Josep (Aula 9)</td>
+                </tr>
+                <tr>
+                    <th>12:30-13:30</th>
+                    <td>0483 Sistemes Jaume(Aula 9)</td>
+                    <td rowspan="2">0484-Mod Opt BBDD Porti (Aula 9)</td>
+                    <td>EIE Eli (Aula 9)</td>
+                    <td>ERP Marc (Aula 9)</td>
+                </tr> 
+                <tr>
+                    <th>13:30-14:30</th>
+                    <td></td>
+                    <td></td>
+                    <td>1709 Robert (Aula 9)</td>
+                    <td>EIE Eli (Aula 9)</td>
+                </tr>
+            </table>
+  </section>
+  <hr>
+  <section>
+    <h2>Vídeo</h2>
+    <p>Pots veure aquest vídeo de YouTube:</p>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/T4D68k4_HlQ?si=f4sizjaZbo8M746V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </section>
+  <hr>
+  <section>
+    <h2>Llista de tasques</h2>
+    <ul>
+      <li>Estudiar HTML i CSS</li>
+      <li>Aprovar Programacio</li>
+      <li>Aprovar BBDD</li>
+    </ul>
+  </section>
+</body>
+</html>
