@@ -1,13 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: rgba(235, 240, 210, 0.557);
 }
 
 header {
     border: 0.5em solid rgb(76, 76, 193);
     margin: 20px;
     padding: 20px;
+    background-color: aquamarine;
 }
 
 h1 {
@@ -20,13 +20,26 @@ h1 {
     color: black;
     font-size: 1.2em;
     padding-top: 4px;
-    
+    float: left;
+}
+
+#html {
+    height: 300px;
+    width: 300px;
+    padding-left: 30px;
 }
 
 footer{
     background-color: aquamarine;
+    border: 0.5em solid rgb(76, 76, 193);
     margin: 10px;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     font-size: 2em;
+}
+
+#educem {
+    width: 100px;
+    height: 100px;
+    padding-left: 90px;
 }
