@@ -2,8 +2,6 @@
     margin: 5px;
 }
 
-
-
 .flex-head{
     display: flex;
     font-size: 1em;
@@ -43,6 +41,60 @@ img {
     font-size: 1em;
 }
 
+#descompte{
+    background-color: rgb(255, 98, 0);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3px;
+    width: 35px;
+    border-radius: 25%;
+}
+
+#preuFinal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    color: rgb(255, 98, 0);
+    font-weight: bold;
+}
+
+#IVA{
+    color: grey;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+}
+
+#verd{
+    color: green;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#entrega{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: grey;
+}
+
+#taronja{
+    color: orange;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+#disponibilidad{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+    color: grey;
+}
+
+#tienda{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+}
 
 #carrito{
     margin-left: 830px;
@@ -50,7 +102,7 @@ img {
     font-weight: bold;
     font-size: 1em;
     padding: 15px 50px 15px 50px;
-    border-radius: 10%;
+    border-radius: 5%;
     border: 0.5px solid black;
     background-color: black;
     color: white;
