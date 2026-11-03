@@ -8,7 +8,13 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.flex-main{
+.flex-renove{
+    border: 1.5px solid red;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.flex-venta{
     border: 1.5px solid red;
     border-radius: 20px;
     padding: 5px;
@@ -110,4 +116,42 @@ img {
 
 .flex-footer{
     display: flex;
+}
+
+
+
+@media only screen and (max-width: 425px) 
+{
+    body{
+        .flex-renove{
+            border: 1.5px solid red;
+            border-radius: 20px;
+            padding: 5px;
+            margin: 10px;
+        }
+      
+        .flex-venta{
+            display: none;
+        }
+        
+        .descripcio-producte{
+            font-size: 0.8em;
+            padding-left: 170px;
+        }
+
+        .flex-body{
+            display: grid;
+            grid-template-columns: 3fr 5fr;
+        }
+
+        img{
+            width: 30vh;
+            margin-left: -10px;
+            margin-top: -120px;
+        }
+
+        #dades{
+            display: none;
+        }
+    }
 }
